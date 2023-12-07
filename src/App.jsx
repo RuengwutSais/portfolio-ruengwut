@@ -11,7 +11,9 @@ function App() {
   return (
     <>
       <NavbarComponent />
-      <HomeComponent/>
+      <Element name="home" className="element">
+        <HomeComponent/>
+      </Element>
       
       <Element name="about" className="element">
         <AboutComponent />

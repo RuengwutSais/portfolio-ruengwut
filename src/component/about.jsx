@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import {
   FaHtml5,
   FaCss3,
@@ -21,9 +20,9 @@ const AboutComponent = () => {
               About me
             </h1>
             <h2 className="pt-6 text-xl font-medium text-white sm:text-2xl lg:text-3xl">
-              I'm a
+              I'm a{' '}
               <span className="text-rose-600 font-semibold">
-                Front end devloper
+               Front end devloper
               </span>
             </h2>
             <p className="pt-6 text-justify leading-relaxed text-white">

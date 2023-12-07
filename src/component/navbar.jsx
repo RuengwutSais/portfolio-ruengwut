@@ -40,6 +40,16 @@ const NavbarComponent = () => {
 
             {/* Style for desktop */}
             <div className="lg:flex font-bold items-center gap-4 hidden text-zinc-900 uppercase">
+            <li className="list-none">
+                <Link
+                  to="home"
+                  smooth={true}
+                  duration={100}
+                  className="block hover:text-rose-600 py-2 px-4 hover:scale-125 cursor-pointer duration-300 ease-in-out"
+                >
+                  Home
+                </Link>
+              </li>
               <li className="list-none">
                 <Link
                   to="about"

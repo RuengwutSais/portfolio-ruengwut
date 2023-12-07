@@ -19,7 +19,7 @@ const ExperienceComponent = () => {
             <div className="md:w-2/5 flex justify-center items-start">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
-                  <img src={Avalant} alt="" className="h-auto w-72 shadow-md" />
+                  <img src={Avalant} alt="" className="h-auto w-72" />
                 </span>
                 <div className="relative ml-3 hidden w-full md:block">
                   <span className="absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 transform bg-grey-70"></span>
