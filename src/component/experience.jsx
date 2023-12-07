@@ -61,7 +61,7 @@ const ExperienceComponent = () => {
                       Best Achievement
                     </span>
                     <span className="text-zinc-900 text-xl">
-                      Product Notification Feature{" "}
+                      Product Notification Feature
                     </span>
                     <span className="block pt-6 font-header text-xl font-bold uppercase text-rose-600">
                       Tools

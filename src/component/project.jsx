@@ -17,6 +17,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiSocketdotio, SiMariadb, SiTailwindcss } from "react-icons/si";
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const ProjectComponent = () => {
   return (
@@ -28,9 +29,9 @@ const ProjectComponent = () => {
         <h2 className="pt-6 text-center text-xl font-semibold text-black sm:text-2xl lg:text-3xl">
           Here's the projects that I have done
         </h2>
-        <div className="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-4/5 md:gap-10 lg:w-full lg:grid-cols-2 sm:p-20 p-8">
+        <div className="mx-auto grid w-full grid-cols-1 gap-10 pt-12 sm:w-4/5 md:gap-10 lg:w-full lg:grid-cols-2 sm:p-20 p-8">
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
-            <div className="shadow-md relative overflow-hidden items-start justify-start cursor-pointer group">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
                 src={RentEstate}
                 alt="RentEstate"
@@ -46,10 +47,10 @@ const ProjectComponent = () => {
                 <p className="text-slate-300">2022-2023</p>
                 <h3 className="font-bold text-rose-600 mt-2">Overview</h3>
                 <p className="text-white">
-                  This project focuses on providing a web application
-                  service for renting estates , catering to general users,
-                  members, and system administrators with various features
-                  tailored to each role.
+                  This project focuses on providing a web application service
+                  for renting estates , catering to general users, members, and
+                  system administrators with various features tailored to each
+                  role.
                 </p>
                 <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
                 <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
@@ -67,13 +68,8 @@ const ProjectComponent = () => {
               </div>
             </div>
           </div>
-          <a
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-            href="https://miweather-workspace.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="shadow-md relative overflow-hidden items-start justify-start cursor-pointer group">
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
                 src={MiWeater}
                 alt="MiWeater"
@@ -101,16 +97,25 @@ const ProjectComponent = () => {
                   <FaVuejs />
                   <FaBootstrap />
                 </div>
+                <div className=" h-12 w-32">
+                  <a
+                    href="https://miweather-workspace.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button
+                      className="bg-zinc-900 text-white border-2 border-white rounded mt-4 h-12 w-32 p-2 flex flex-wrap items-center justify-center gap-2
+                hover:bg-white hover:text-zinc-900 ease-in-out hover:scale-110 duration-300"
+                    >
+                      <FaArrowUpRightFromSquare /> Preview
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </a>
-          <a
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-            href="https://filmic-pass.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="shadow-md relative overflow-hidden items-start justify-start cursor-pointer group">
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
                 src={FilmicPass}
                 alt="FilmicPass"
@@ -137,16 +142,25 @@ const ProjectComponent = () => {
                   <FaReact />
                   <SiTailwindcss />
                 </div>
+                <div className=" h-12 w-32">
+                  <a
+                  href="https://filmic-pass.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                    <button
+                      className="bg-zinc-900 text-white border-2 border-white rounded mt-4 h-12 w-32 p-2 flex flex-wrap items-center justify-center gap-2
+                hover:bg-white hover:text-zinc-900 ease-in-out hover:scale-110 duration-300"
+                    >
+                      <FaArrowUpRightFromSquare /> Preview
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </a>
-          <a
-            className="mx-auto transform transition-all hover:scale-105 md:mx-0"
-            href="https://task-list-ruengwut.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <div className="shadow-md relative overflow-hidden items-start justify-start cursor-pointer group">
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
                 src={TaskList}
                 alt="FilmicPass"
@@ -174,9 +188,23 @@ const ProjectComponent = () => {
                   <FaVuejs />
                   <FaBootstrap />
                 </div>
+                <div className=" h-12 w-32">
+                  <a
+                  href="https://task-list-ruengwut.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                    <button
+                      className="bg-zinc-900 text-white border-2 border-white rounded mt-4 h-12 w-32 p-2 flex flex-wrap items-center justify-center gap-2
+                hover:bg-white hover:text-zinc-900 ease-in-out hover:scale-110 duration-300"
+                    >
+                      <FaArrowUpRightFromSquare /> Preview
+                    </button>
+                  </a>
+                </div>
               </div>
             </div>
-          </a>
+          </div>
         </div>
       </section>
     </>
