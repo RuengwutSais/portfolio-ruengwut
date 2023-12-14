@@ -40,7 +40,7 @@ const NavbarComponent = () => {
 
             {/* Style for desktop */}
             <div className="lg:flex font-bold items-center gap-4 hidden text-zinc-900 uppercase">
-            <li className="list-none">
+              <li className="list-none">
                 <Link
                   to="home"
                   smooth={true}
@@ -104,6 +104,16 @@ const NavbarComponent = () => {
           {/* Style for responsive */}
           {isMenuOpen && (
             <div className=" text-black font-bold uppercase bg-slate-100 p-4 m-4 rounded-md">
+              <li className="list-none">
+                <Link
+                  to="home"
+                  smooth={true}
+                  duration={100}
+                  className="block hover:text-rose-600 py-2 px-4 hover:scale-105 cursor-pointer duration-300 ease-in-out"
+                >
+                  Home
+                </Link>
+              </li>
               <li className="list-none">
                 <Link
                   to="about"

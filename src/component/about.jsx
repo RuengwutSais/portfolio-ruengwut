@@ -13,7 +13,7 @@ import { SiTailwindcss } from "react-icons/si";
 const AboutComponent = () => {
   return (
     <>
-      <section className=" bg-zinc-900" id="about">
+      <section className="bg-zinc-900" id="about">
         <div className="flex flex-col items-center py-16 md:py-20 lg:flex-row w-full">
           <div className="sm:p-20 p-8 text-center sm:w-3/4 lg:w-3/5 lg:text-left">
             <h1 className="text-4xl font-semibold uppercase sm:text-5xl lg:text-6xl text-rose-600">

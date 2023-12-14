@@ -15,8 +15,8 @@ const ExperienceComponent = () => {
           Here's what I have done in the past
         </h2>
         <div className="relative mx-auto mt-12 flex w-full flex-col lg:w-4/5 p-10">
-          <div className="mt-8 flex flex-col text-center md:flex-row md:text-left">
-            <div className="md:w-2/5 flex justify-center items-start">
+          <div className="mt-8 flex flex-col text-center md:flex-row md:text-left gap-4">
+            <div className="md:w-2/5 flex justify-center items-center">
               <div className="flex justify-center md:justify-start">
                 <span className="shrink-0">
                   <img src={Avalant} alt="" className="h-auto w-72" />
@@ -37,14 +37,14 @@ const ExperienceComponent = () => {
                       Intern at Avalant Co.,Ltd.
                     </span>
                     <span className="block pt-2 font-header text-xl font-bold uppercase text-rose-600">
-                      Developer
+                      Position Developer
                     </span>
                     <div className="pt-2">
                       <div className="block text-start text-zinc-900">
                         <span className="text-zinc-900 text-xl font-bold text-start w-full">
                           Responsibilities
                         </span>
-                        <ul className="list-disc gap-4 flex flex-col text-justify">
+                        <ul className="list-disc gap-4 flex flex-col text-start">
                           <li>
                             Handled Customer Requests (CR) for the SCS
                             SiamVisual project during the first three months.
