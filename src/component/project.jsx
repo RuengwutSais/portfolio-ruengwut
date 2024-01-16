@@ -4,19 +4,20 @@ import RentEstate from "../assets/pictures/1.png";
 import MiWeater from "../assets/pictures/2.png";
 import FilmicPass from "../assets/pictures/3.png";
 import TaskList from "../assets/pictures/4.png";
+import MusicApp from "../assets/pictures/5.png";
+import Ecommerce from "../assets/pictures/6.png";
 
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaSass,
   FaVuejs,
   FaBootstrap,
   FaNodeJs,
   FaDocker,
   FaReact,
+  FaCcStripe 
 } from "react-icons/fa";
-import { SiSocketdotio, SiMariadb, SiTailwindcss } from "react-icons/si";
+import { SiSocketdotio, SiMariadb, SiTailwindcss,SiTypescript, SiPostgresql, SiJavascript, SiHtml5, SiCss3, SiSass } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { RiSupabaseFill } from "react-icons/ri";
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 
 const ProjectComponent = () => {
@@ -54,10 +55,10 @@ const ProjectComponent = () => {
                 </p>
                 <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
                 <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
-                  <FaHtml5 />
-                  <FaCss3 />
-                  <FaSass />
-                  <FaJs />
+                  <SiHtml5 />
+                  <SiHtml5 />
+                  <SiSass />
+                  <SiHtml5 />
                   <FaNodeJs />
                   <FaVuejs />
                   <FaBootstrap />
@@ -71,8 +72,8 @@ const ProjectComponent = () => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
-                src={MiWeater}
-                alt="MiWeater"
+                src={MusicApp}
+                alt="MusicApp"
                 className="w-full h-full shadow bg-center bg-cover object-cover"
               />
               <div
@@ -80,28 +81,31 @@ const ProjectComponent = () => {
                         group-hover:translate-y-0 h-full overflow-y-auto"
               >
                 <h3 className="font-bold text-xl text-rose-600">
-                  Side Project MiWeather
+                  Music App
                 </h3>
                 <p className="text-slate-300">2023</p>
                 <h3 className="font-bold text-rose-600 mt-2">Overview</h3>
                 <p className="text-white">
-                  Create a weather dashboard that allow users to search for
-                  infomation about city weather ,By using OpenWeather API.
+                  A Music App using NextJs with typescript and using Supabase as a database to create a Music App that has a features such as Sign-in/SignUp, Music Playback, Song Upload, Liked Songs Playlist, Song Search, Subscription Management.
                 </p>
                 <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
                 <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
-                  <FaHtml5 />
-                  <FaCss3 />
-                  <FaSass />
-                  <FaJs />
-                  <FaVuejs />
-                  <FaBootstrap />
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <SiJavascript />
+                  <SiTypescript />
+                  <SiPostgresql />
+                  <FaReact />
+                  <TbBrandNextjs />
+                  <SiTailwindcss />
+                  <RiSupabaseFill />
+                  <FaCcStripe />
                 </div>
-                <div className=" h-12 w-32">
+                <div className="h-12 w-32">
                   <a
-                    href="https://miweather-workspace.netlify.app/"
-                    target="_blank"
-                    rel="noreferrer"
+                  href="https://music-app-amber-eight.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
                   >
                     <button
                       className="bg-zinc-900 text-white border-2 border-white rounded mt-4 h-12 w-32 p-2 flex flex-wrap items-center justify-center gap-2
@@ -132,13 +136,13 @@ const ProjectComponent = () => {
                 <h3 className="font-bold text-rose-600 mt-2">Overview</h3>
                 <p className="text-white">
                   Create a movie website that allows users to search for
-                  information about movies using TMDB API
+                  information about movies using TMDB API.
                 </p>
                 <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
                 <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
-                  <FaHtml5 />
-                  <FaCss3 />
-                  <FaJs />
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <SiJavascript />
                   <FaReact />
                   <SiTailwindcss />
                 </div>
@@ -162,8 +166,85 @@ const ProjectComponent = () => {
           <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
             <div className="shadow-md relative overflow-hidden items-start justify-start group">
               <img
+                src={MiWeater}
+                alt="MiWeater"
+                className="w-full h-full shadow bg-center bg-cover object-cover"
+              />
+              <div
+                className="absolute left-0 right-0 bottom-0 bg-zinc-900 text-black p-4 max-h-full ease-in-out duration-300 translate-y-full 
+                        group-hover:translate-y-0 h-full overflow-y-auto"
+              >
+                <h3 className="font-bold text-xl text-rose-600">
+                  Side Project MiWeather
+                </h3>
+                <p className="text-slate-300">2023</p>
+                <h3 className="font-bold text-rose-600 mt-2">Overview</h3>
+                <p className="text-white">
+                  Create a weather dashboard that allow users to search for
+                  infomation about city weather ,By using OpenWeather API.
+                </p>
+                <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
+                <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <SiSass />
+                  <SiJavascript />
+                  <FaVuejs />
+                  <FaBootstrap />
+                </div>
+                <div className=" h-12 w-32">
+                  <a
+                    href="https://miweather-workspace.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <button
+                      className="bg-zinc-900 text-white border-2 border-white rounded mt-4 h-12 w-32 p-2 flex flex-wrap items-center justify-center gap-2
+                hover:bg-white hover:text-zinc-900 ease-in-out hover:scale-110 duration-300"
+                    >
+                      <FaArrowUpRightFromSquare /> Preview
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
+              <img
+                src={Ecommerce}
+                alt="Ecommerce"
+                className="w-full h-full shadow bg-center bg-cover object-cover"
+              />
+              <div
+                className="absolute left-0 right-0 bottom-0 bg-zinc-900 text-black p-4 max-h-full ease-in-out duration-300 translate-y-full 
+                        group-hover:translate-y-0 h-full overflow-y-auto"
+              >
+                <h3 className="font-bold text-xl text-rose-600">
+                  Side Project Ecommerce Mockup
+                </h3>
+                <p className="text-slate-300">2023</p>
+                <h3 className="font-bold text-rose-600 mt-2">Overview</h3>
+                <p className="text-white">
+                  A side project pactice to mockup an ecommerce platform using NextJs with tailwind and JsonDummy as a mockup API.
+                </p>
+                <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
+                <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <SiJavascript />
+                  <FaReact />
+                  <TbBrandNextjs />
+                  <SiTailwindcss />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mx-auto transform transition-all hover:scale-105 md:mx-0">
+            <div className="shadow-md relative overflow-hidden items-start justify-start group">
+              <img
                 src={TaskList}
-                alt="FilmicPass"
+                alt="TaskList"
                 className="w-full h-full shadow bg-center bg-cover object-cover"
               />
               <div
@@ -182,9 +263,9 @@ const ProjectComponent = () => {
                 </p>
                 <h3 className="font-bold text-rose-600 mt-2">Tools</h3>
                 <div className="flex flex-wrap gap-2 zinc-900 text-xl text-white mt-2">
-                  <FaHtml5 />
-                  <FaCss3 />
-                  <FaJs />
+                  <SiHtml5 />
+                  <SiCss3 />
+                  <SiJavascript />
                   <FaVuejs />
                   <FaBootstrap />
                 </div>

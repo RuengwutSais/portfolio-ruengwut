@@ -1,14 +1,11 @@
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaSass,
   FaVuejs,
   FaReact,
   FaBootstrap,
 } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
-import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTypescript, SiJavascript, SiSass, SiHtml5, SiCss3, SiTailwindcss } from "react-icons/si";
 
 const AboutComponent = () => {
   return (
@@ -53,10 +50,11 @@ const AboutComponent = () => {
                 Skills
               </h4>
               <div className="flex flex-wrap gap-4 mt-8 text-white text-5xl">
-                <FaHtml5 />
-                <FaCss3 />
-                <FaJs />
-                <FaSass />
+                <SiHtml5 />
+                <SiCss3 />
+                <SiJavascript />
+                <SiTypescript />
+                <SiSass />
                 <GrMysql />
               </div>
             </div>
@@ -68,6 +66,7 @@ const AboutComponent = () => {
                 <FaVuejs />
                 <FaReact />
                 <FaBootstrap />
+                <TbBrandNextjs />
                 <SiTailwindcss />
               </div>
             </div>
